@@ -11,7 +11,6 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     font-family: 'Roboto Mono', monospace;
     background-color: rgb(6, 6, 73);
-    background-image: url(../imagenes/fondo-menu.jpg);
 }
 
 ul {
@@ -22,12 +21,7 @@ a {
     text-decoration: none;
 }
 
-main {
-    background-color: rgb(15, 15, 15) ;
-    background-image: url(../imagenes/fondo-menu.jpg);
-    background-repeat:repeat;
-    background-size: cover;
-}
+
 
 /* Header, parte de la navegacion y logo de la empresa */
 
@@ -146,22 +140,65 @@ header {
 
 .imagen-empresa {
     width: 100%;
-    height: 14vh;
+    height: 150px;
 }
 
 .imagen-empresa img {
     width: 100%;
-    background-size: cover;
+    height: 100%;
 }
 
+@media (min-width:600px) {
 
+    .imagen-empresa {
+        width: 100%;
+        height: 210px;
+    }
+    
+    .imagen-empresa img {
+        width: 100%;
+        height: 100%;
+    }
+}
 
+@media (min-width:770px) {
 
+    .imagen-empresa {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .imagen-empresa img {
+        width: 100%;
+        height: 100%;
+    }
+}
 
+@media (min-width:1024px) {
 
+    .imagen-empresa {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .imagen-empresa img {
+        width: 100%;
+        height: 100%;
+    }
+}
 
+@media (min-width:1200px) {
 
-
+    .imagen-empresa {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .imagen-empresa img {
+        width: 100%;
+        height: 100%;
+    }
+}
 
 
 

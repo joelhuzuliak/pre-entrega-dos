@@ -239,7 +239,7 @@ span {
     }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1200px) {
 
     .contenedor-tomar article {
         padding: 20px;
@@ -354,7 +354,7 @@ span {
     }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1200px) {
 
     .contenedor-comer article {
         padding: 20px;
