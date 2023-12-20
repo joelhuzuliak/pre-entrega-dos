@@ -200,7 +200,65 @@ header {
     }
 }
 
+/* Sobre nosotros */
 
+
+.nosotros-contenedor {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(6, 6, 73);
+    color: white;
+}
+
+.nosotros-contenedor h2 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.nosotros {
+    border: 2px solid blueviolet;
+    margin-bottom: 20px;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+.nosotros h4 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.nosotros p {
+    padding: 10px;
+}
+
+@media (min-width:600px) {
+
+    .nosotros-contenedor {
+        padding: 40px;
+    }
+}
+
+@media (min-width:770px) {
+
+    .nosotros {
+        margin: 50px;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .nosotros-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nosotros {
+        width: 500px;
+        height: 250px;
+    }
+}
 
 
 /* Footer */
