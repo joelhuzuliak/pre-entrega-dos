@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Red+Hat+Display:wght@300&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(6, 6, 73);
+    background-image: url(../imagenes/fondo-menu.jpg);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-color: rgb(15, 15, 15) ;
+    background-image: url(../imagenes/fondo-menu.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+/* Header, parte de la navegacion y logo de la empresa */
+
+header {
+    background-color: rgb(2, 2, 36);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-titulo div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-titulo nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.logo-titulo nav a {
+    color: white;
+}
+
+.border-header {
+    border-bottom: 2px solid white;
+    padding: 3px;
+}
+
+@media (min-width:320px) {
+    .logo-titulo div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo-titulo ul li{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .logo-titulo a {
+        font-size: 10px;
+        margin: 5px;
+    }
+
+}
+
+@media (min-width:600px) {
+    .logo-titulo div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .logo-titulo img {
+        margin-right: 10px;
+    }
+
+    .logo-titulo nav ul li {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .logo-titulo a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:770px) {
+
+    .logo-titulo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-titulo div {
+        margin-right: 40px;
+    }
+
+    .logo-titulo nav {
+        margin-left: 23px;
+    }
+
+    .logo-titulo a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:1024px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-titulo div{
+        margin-right: 150px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(2, 2, 36);;
+    color: white;
+    text-align: center;
+}
+
+footer div {
+    padding-top: 20px;
+}
+
+footer div h4 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+.navegacion-footer {
+    padding-top: 10px;
+}
+
+.navegacion-footer h4 {
+    padding-bottom: 10px;
+}
+
+.navegacion-footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion-footer li {
+    margin: 5px;
+}
+
+@media (min-width:600px) {
+
+    .contenedor-arriba {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-informacion {
+        margin: 40px;
+    }
+
+    .contenedor-abajo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-abajo nav {
+        margin: 40px;
+    }
+}
+
+@media (min-width:1024px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contenedor-abajo ul {
+        display: block;
+    }
+}
+
+@media (min-width:1200px) {
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
