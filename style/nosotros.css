@@ -255,8 +255,76 @@ header {
     }
 
     .nosotros {
-        width: 500px;
-        height: 250px;
+        width: 200px;
+        height: 270px;
+    }
+}
+
+/* Nuestro equipo */
+
+.equipo-contenedor {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.equipo-contenedor h2 {
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.equipo {
+    border: 2px solid blueviolet;
+    height: 55vh;
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+.equipo img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 1rem;
+    background-size: contain;
+}
+
+.equipo h4 {
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.equipo h5 {
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+@media (min-width:600px) {
+
+    .equipo-contenedor {
+        padding: 50px;
+    }
+}
+
+@media (min-width:770px) {
+
+    .equipo-contenedor {
+        padding: 120px;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .equipo-contenedor h2 {
+        margin: 10px;
+    }
+
+    .equipo-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .equipo {
+        width: 400px;
     }
 }
 
